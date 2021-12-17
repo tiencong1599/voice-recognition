@@ -1,0 +1,13 @@
+<html>
+<header>
+    <title>
+        Upload Audio
+    </title>
+</header>
+<body>
+    <h1>{{audio_name}}</h1>
+    <form enctype="multipart/form-data" method="POST" action="/stream">
+        Input: <br> <textarea name="{{audio_name}}">{{audio_name}}</textarea>
+        <input type="submit" value="Send"/>
+</body>
+</html>
